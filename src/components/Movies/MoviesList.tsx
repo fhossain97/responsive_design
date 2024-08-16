@@ -28,7 +28,6 @@ const MoviesList = ({ data }: { data: Movie_Result[] }) => {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: { xs: "column", sm: "row" },
-        gap: { xs: 1, sm: 2, md: 3 },
       }}
     >
       <IconButton
@@ -43,7 +42,7 @@ const MoviesList = ({ data }: { data: Movie_Result[] }) => {
       <Box
         sx={{
           display: "flex",
-          gap: { xs: 0.5, sm: 2, md: 3 },
+          gap: { xs: 1, sm: 1, md: 1 },
           flexWrap: { xs: "wrap", sm: "nowrap" },
         }}
       >

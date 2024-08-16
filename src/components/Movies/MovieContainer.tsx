@@ -27,11 +27,6 @@ const MovieContainer = ({ data }: { data: Movie_Result }) => {
           sm: "auto",
           md: "50%",
         },
-        margin: {
-          xs: 1,
-          sm: 2,
-          md: 3,
-        },
       }}
       onClick={() => setOpenModal(true)}
     >
